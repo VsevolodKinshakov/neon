@@ -1,137 +1,135 @@
 body {
-    font-family: 'Oswald', sans-serif;
-    background-color: #0A0216;
-    padding: 0 130px;
+  font-family: "Oswald", sans-serif;
+  background-color: #0a0216;
+  padding: 0 130px;
 }
 /*start 1 display*/
 header {
-    display: flex;
-    gap: 140px;
-    margin-top: 24px;
-
+  display: flex;
+  gap: 140px;
+  margin-top: 24px;
 }
 
 .logo {
-    color: white;
-    display: flex;
-    align-items: center;
-    height: 76px;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 76px;
 }
 .nav {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .infoMenu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Raleway';
-    font-size: 18px;
-    line-height: 125%;
-    margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 125%;
+  margin-bottom: 60px;
 }
 
 .infoMenu a {
-    color: #ffffffff;
-    text-decoration: none;
+  color: #ffffffff;
+  text-decoration: none;
 }
 
 .inputbox {
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 2px;
-    padding: 12px;
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    width: 325px;
-
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 325px;
 }
 
 .inputbox img {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
 .inputbox input {
-    border: 0;
-    outline: 0;
-    background-color: transparent;
-    color: #ffffffff;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #ffffffff;
 }
 
 a.login {
-    color: #f50395;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
+  color: #f50395;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .categories {
-    font-family: 'Oswald';
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 125%;
-    display: flex;
-    justify-content: space-between;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .categories a {
-    color: #ffffffff;
-    text-decoration: none;
+  color: #ffffffff;
+  text-decoration: none;
 }
 
 .choices {
-    font-family: 'Raleway';
-    font-weight: 400;
-    display: flex;
+  font-family: "Raleway";
+  font-weight: 400;
+  display: flex;
 }
 /*end 1 display*/
 
 /*start 3 display*/
 h2 {
-    font-family: 'Oswald';
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 89px;
-    color: #FFFFFF;
-    margin: 90px 0px;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  color: #ffffff;
+  margin: 90px 0px;
 }
 
 .images {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 div .advantages1 {
-    position: relative;
+  position: relative;
 }
 
 div .advantagesImg {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: 15px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 15px;
 }
 .descriptionAD {
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Oswald';
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 125%; 
-    text-align: center;
-    color: #FEFEFE;
-    margin-top: 75px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 125%;
+  text-align: center;
+  color: #fefefe;
+  margin-top: 75px;
 }
 /*end 3 display*/
 /*start brands*/
 .brands {
-    display: flex;
-    gap: 60px;
-    justify-content: center;
-    flex-grow: 0;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  flex-grow: 0;
 }
-.brands img{
-    object-fit: none;
+.brands img {
+  object-fit: none;
 }
 /*end brands*/
