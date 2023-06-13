@@ -2,6 +2,7 @@ body {
   font-family: "Oswald", sans-serif;
   background-color: #0a0216;
   padding: 0 130px;
+  color: white
 }
 /*start 1 display*/
 header {
@@ -133,3 +134,128 @@ div .advantagesImg {
   object-fit: none;
 }
 /*end brands*/
+/*news block start*/
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.news {
+  height: 465px;
+  background-image: url(../img/news1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 250px 100px 100px;
+  grid-template-areas:  "i i"
+                        "h h"
+                        "d b";
+  position: relative;
+}
+.news h6 {
+  grid-area: h;
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  margin: 0;
+  margin-left: 50px;
+  width: 550px;
+}
+.news .date {
+  grid-area: d;
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  align-self: center;
+  margin-left: 77px;
+}
+.news .date::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 22px;
+  background-image: url(../img/dateSlash.svg);
+}
+.news .newsButton {
+  /*grid-area: b;*/
+  height: 68px;
+  width: 400px;
+  background-image: url(../img/newsbuttonbg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-style: 26px;
+  line-height: 35px;
+  padding: 19px 0;
+  position: absolute;
+  top: 394px;
+  left: 415px;
+}
+/*news block end*/
+/*section 2 start*/
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:  "t i"
+                        "a i"
+                        "b z";
+  background-image: url(../img/border2section.svg);
+  width: 1667px;
+  height: 775px;
+  position: relative;  
+}
+.titleSection2 {
+  grid-area: t;
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 120%;
+  width: 560px;
+  margin: 0;
+  margin-left: 142px;
+  margin-top: 100px;
+}
+.adventageSection2 {
+  grid-area: a;
+  font-family: 'Raleway';
+  line-height: 150%;
+  width: 560px;
+  margin: 0;
+  margin-left: 142px;
+  margin-top: -170px;
+  
+}
+.adventageSection2 .h5 {
+  font-weight: 400;
+  font-size: 22px;
+}
+.catalogButton {
+  grid-area: b;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  width: 400px;
+  height: 68px;
+  background-image: url(../img/newsbuttonbg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding: 19px 0;
+  position: absolute;
+  top: -130px;
+  left: 142px;
+
+}
+.imgSection2 {
+  grid-area: i;
+  position: absolute;
+  top: 250px;
+  left: 907px;
+
+}
+/*section 2 end*/
