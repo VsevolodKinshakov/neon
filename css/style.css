@@ -195,9 +195,25 @@ div .advantagesImg {
   top: 394px;
   left: 415px;
 }
+.news:nth-child(2) {
+  background-image: url(../img/news2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.news:nth-child(3) {
+  background-image: url(../img/news3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.news:nth-child(4) {
+  background-image: url(../img/news4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /*news block end*/
 /*section 2 start*/
 .section2 {
+  margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:  "t i"
@@ -259,3 +275,158 @@ div .advantagesImg {
 
 }
 /*section 2 end*/
+.zagsection2 {
+  display: flex;
+  justify-content: space-between;
+}
+.showallnew {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.6);
+  width: 280px;
+  height: 50px;
+  background-image: url(../img/ShowAll.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding: 14px 0;
+  margin-top: 120px;
+}
+.newofferSection {
+  display: flex;
+  justify-content:space-between;
+  gap: 30px;
+}
+
+.newoffer {
+  position: relative;
+  width: 390px;
+  height: 626px;
+}
+
+.catalogBG {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  /* top: 20%; */
+  z-index: 1;
+}
+
+.catalogOffer {
+  position: absolute;
+  /* left: 50%; */
+  /* top: 50%; */
+  transform: translate(10%, 10%);
+  z-index: 2;
+}
+
+.catalogLike {
+  position: absolute;
+  right: 0;
+  transform: translate(-150%, 150%);
+  z-index: 2;
+
+}
+
+.catalogArticule {
+  position: absolute;
+  z-index: 3;
+  bottom: 200px;
+  left: 33px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  color: rgba(254, 254, 254, 0.5);
+}
+
+.catalogname {
+  font-family: 'Oswald';
+  position: absolute;
+  z-index: 3;
+  bottom: 150px;
+  left: 33px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 41px;
+  color: #f50395;
+  justify-self:left;
+}
+
+.catalogPrice {
+  font-family: 'Jost';
+  position: absolute;
+  z-index: 3;
+  bottom: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  Width: 309px;
+  Height: 40px;
+  padding: 0;
+  margin-left: 170px;
+
+}
+
+.catalogGarbage {
+  position: absolute;
+  z-index: 3;
+  bottom: 11px;
+  font-family: 'Jost';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  width: 324px;
+  height: 48px;
+  background-image: url(../img/catalogButton.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding: 10px 0;
+  margin-left: 33px;
+}
+
+.caatalogNEW {
+  position: absolute;
+  z-index: 3;
+  left: 40%;
+  transform: translate(-150%, 150%);
+  z-index: 2;
+  width: 64px;
+  height: 26px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  background-image: url(../img/catalogNew.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+/*start stocks*/
+.stocks {
+  display: flex;
+  justify-content: space-between;
+}
+.stocks2 {
+  position: relative;
+}
+.stocks2 img:nth-child(2) {
+  position: absolute;
+  top: 394px;
+  left: 197px;
+}
+.stocks2 img:nth-child(3) {
+  position: absolute;
+  top: 394px;
+  left: 292px;
+}
+/*end stocks*/
+
