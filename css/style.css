@@ -89,6 +89,7 @@ a.login {
   font-family: "Raleway";
   font-weight: 400;
   display: flex;
+  margin-bottom: 79px;
 }
 
 /*end 1 display*/
@@ -572,6 +573,9 @@ footer {
   grid-template-columns: repeat(5, 1fr);
   padding: 0 130px;
 }
+.footerMenu a {
+  font-family: 'Jost';
+}
 
 h5 {
   font-family: "Oswald";
@@ -602,10 +606,12 @@ footer .logo {
   margin-top: 100px;
   border-top: 1px solid rgba(104, 104, 104, 0.5);
   padding: 0 130px;
+  font-family: 'Inter';
 }
 
 .subFooter a {
   color: #645f5f;
+  font-family: 'Inter';
 }
 
 .footerinfo {
@@ -623,6 +629,8 @@ footer .logo {
 
 .legal a {
   margin: 0;
+  margin-top: 60px;
+  font-family: 'Inter';
 }
 
 .social {
@@ -635,12 +643,15 @@ footer .logo {
 
 .social a {
   margin: 0;
+  margin-top: 60px;
+  font-family: 'Inter';
 }
 
 .subFooter span {
   font-family: "Inter";
   font-size: 20px;
   line-height: 24px;
+  margin-top: 60px;
 }
 
 /*footer end*/
