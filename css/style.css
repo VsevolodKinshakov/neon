@@ -116,7 +116,8 @@ h2 {
   font-size: 60px;
   line-height: 89px;
   color: #ffffff;
-  margin: 90px 0px;
+  margin: 0;
+  margin-bottom: 100px;
 }
 
 .images {
@@ -356,6 +357,7 @@ div .advantagesImg {
   position: absolute;
   /* top: 20%; */
   z-index: 1;
+  margin-bottom: 200px;
 }
 
 .catalogOffer {
@@ -588,6 +590,7 @@ footer {
   grid-template-columns: repeat(5, 1fr);
   padding: 0 130px;
 }
+
 .footerMenu a {
   font-family: 'Jost';
 }
@@ -642,8 +645,8 @@ footer .logo {
   gap: 120px;
   font-size: 20px;
   line-height: 24px;
-  
-  
+
+
 }
 
 .legal a {
@@ -699,7 +702,7 @@ footer .logo {
   display: none;
 }
 
-body > h2 {
+body>h2 {
   margin: 0;
   padding: 0 130px;
   margin-bottom: 70px;
@@ -758,7 +761,7 @@ aside input {
   opacity: 0;
 }
 
-aside input[type="checkbox"] + span.checkbox {
+aside input[type="checkbox"]+span.checkbox {
   position: absolute;
   right: 0;
   top: 0;
@@ -768,13 +771,13 @@ aside input[type="checkbox"] + span.checkbox {
   background-repeat: no-repeat;
 }
 
-aside input[type="checkbox"]:checked + span.checkbox   {
+aside input[type="checkbox"]:checked+span.checkbox {
   width: 50px;
   height: 50px;
   background-image: url(../img/catalog/checkboxActive.png);
   background-position: 0 -7px;
   background-repeat: no-repeat;
-  
+
 }
 
 .secondary {
@@ -782,7 +785,7 @@ aside input[type="checkbox"]:checked + span.checkbox   {
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
-  color: rgba(255, 255, 255, 0.6);  
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   display: flex;
   width: 320px;
@@ -816,11 +819,11 @@ aside input[type="checkbox"]:checked + span.checkbox   {
   display: flex;
   justify-content: space-around;
   flex-grow: 1;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 35px;
 }
 
-.subcatalog > .btn1 {
+.subcatalog>.btn1 {
   margin: 0;
   background-image: url(../img/catalog/subcatalogRoseButton.png);
   background-position: 0 -5px;
@@ -828,7 +831,7 @@ aside input[type="checkbox"]:checked + span.checkbox   {
   height: 55px;
 }
 
-.subcatalog > .secondary {
+.subcatalog>.secondary {
   margin: 0;
   background-image: url(../img/catalog/subcatalogGrayButton.png);
   width: 230px;
@@ -853,7 +856,7 @@ aside input[type="checkbox"]:checked + span.checkbox   {
   opacity: 0.7;
 }
 
-.sort > .sortBy {
+.sort>.sortBy {
   font-family: 'Raleway';
   font-size: 20px;
   line-height: 23px;
@@ -862,7 +865,7 @@ aside input[type="checkbox"]:checked + span.checkbox   {
 
 }
 
-.sort > .sortBy::after {
+.sort>.sortBy::after {
   content: url(../img/catalog/arrowDownSort.png);
   margin-left: 10px;
   content: center;
@@ -883,9 +886,75 @@ aside input[type="checkbox"]:checked + span.checkbox   {
   max-width: 1420px;
   flex-wrap: wrap;
   margin-bottom: 310px;
-  
+
 }
 
+/* Product start */
+
+.same {
+  position: relative;
+  width: 390px;
+  height: 626px;
+  margin-bottom: 200px;
+}
+
+.sameSection {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+/* Info delivery */
+.infospan span{
+  max-width: 1230px;
+  display: block;
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.infospan span::before {
+  content: url(../img/catalog/checkboxActive.png);
+  margin-right: 30px;
+
+}
+.infospan {
+  margin-bottom: 150px;
+}
+.rules span {
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 500;
+  line-height: 150%;
+  margin-left: 39px;
+  margin-right: 12px;
+}
+
+.rules {
+  background-image: url(../img/product/RuleBorder.png);
+  width: 390px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Информация  о доставке конец */
 
 
 
@@ -910,3 +979,4 @@ aside input[type="checkbox"]:checked + span.checkbox   {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+/* ПРОВЕРИТЬ ВЕРСТКУ НА ВСЕХ СТРАНИЦАХ ИЗМЕНЕН PADDING MAIN */
