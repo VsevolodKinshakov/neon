@@ -951,22 +951,207 @@ aside input[type="checkbox"]:checked+span.checkbox {
   display: flex;
   justify-content: center;
   gap: 30px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+  /* Product Details start */
+
+.productDetails {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: first baseline;
+  gap: 170px;
+  height: 636px;
 }
 
-/* Информация  о доставке конец */
+.headmouse {
+  margin: 0;
+  padding: 0;
+  background-image: url(..//img/product/Mouse1.png);
+  background-repeat: no-repeat;
+  width: 535px;
+  height: 650px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
 
+.imgMouseSmall1 {
+  position: absolute;
+  top: 285px;
+  left: 10px;
+}
 
+.imgMouseSmall2 {
+  position: absolute;
+  top: 395px;
+  left: 10px;
+}
 
+.imgMouseSmall3 {
+  position: absolute;
+  top: 505px;
+  left: 10px;
+}
 
+.catalogArticule2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  color: rgba(254, 254, 254, 0.5);
+}
 
+.catalogname2 {
+  font-size: 66px;
+  font-family: Oswald;
+  font-weight: 500;
+  line-height: 120%;
+  color: #f50395;
+}
 
+.catalogPrice2 {
+  color: #fff;
+  font-size: 40px;
+  font-family: Jost;
+  font-weight: 500;
+  line-height: 125%;
+  margin-top: 40px;
+}
 
+.catalograte {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  font-family: "Jost";
+  line-height: 125%;
+}
 
+.catalograte::before {
+  content: url(../img/product/stars.png);
+  margin-right: 11px;
+}
 
+.secondblockPD {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 22px;
+  font-family: "Raleway";
+  line-height: 125%;
+  margin-top: 135px;
+}
 
+.secondblockPD span::before {
+  content: url(../img/product/stars.png);
+  margin-right: 11px;
+  margin-left: 100px;
+}
 
+.thirdblock {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 911px;
+  height: 31px;
+  top: -500px;
+  left: 700px;
+}
 
+.spanActive {
+  color: #FFF;
+  font-size: 22px;
+  font-family: Raleway;
+  line-height: 125%;
+  width: 229px;
+  height: 35px;
+  background-image: url(../img/product/descriptionActive.png);
+  background-repeat: no-repeat;
+
+}
+
+.spanDisable {
+  color: #6F6E6E;
+  font-size: 22px;
+  font-family: Raleway;
+  line-height: 125%;
+  background-image: url(../img/product/descriptionDisabled.png);
+  background-repeat: no-repeat;
+  width: 283px;
+  height: 35px;
+
+}
+
+.textDescription {
+  color: #FFF;
+  font-size: 20px;
+  font-family: Raleway;
+  line-height: 125%;
+  width: 950px;
+  position: relative;
+  top: -500px;
+  left: 700px;
+}
+
+.quantity > button {
+  background: transparent;
+  border: 0; 
+  color: #fff;
+  font-size: 50px;
+}
+
+.quantity span {
+    color: #FFF;
+    font-size: 30px;
+    font-family: Jost;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.quantity > .minus {
+  position: relative;
+  top: -20px;
+  left: -230px;
+}
+
+.quantity > .plus {
+  position: relative;
+  top: -20px;
+  left: -130px;
+}
+
+.quantity > span {
+  position: relative;
+  top: -25px;
+  left: -180px;
+}
+
+.garbageProduct {
+  bottom: 11px;
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  width: 321px;
+  height: 63px;
+  background-image: url(../img/product/ButtonGarbage.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding: 18px 0;
+  top: -155px;
+  left: 1130px;
+  position: relative;
+}
+
+.quantity {
+  top: -70px;
+  left: 830px;
+  position: relative;
+}
+
+.section1 {
+  height: 636px;
+  padding: 0 130px;
+}
 
 @media (max-width: 1400px) {
   .footerMenu {
